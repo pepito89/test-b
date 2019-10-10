@@ -1,7 +1,7 @@
 {
-  "name": "crazy-test-b",
-  "version": "1.1.0",
-  "description": "A dummy react npm module",
+  "name": "adludio-fe-react-md-components",
+  "version": "1.0.0",
+  "description": "A react components library for Adludio based on Material Design principles",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,11 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/recraftstudio/dummy-react-npm-module.git"
+    "url": "git+https://github.com/piotr-adludio/fe-react-md-components.git"
   },
   "author": "Piotr Pladzyk",
   "license": "ISC",
-  "homepage": "https://github.com/recraftstudio/dummy-react-npm-module#readme",
+  "homepage": "",
   "peerDependencies": {
     "react": "^16.6.1",
     "react-dom": "^16.6.3"
@@ -25,5 +25,8 @@
     "@babel/preset-react": "^7.0.0",
     "react": "^16.6.1",
     "react-dom": "^16.6.3"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.5.0"
   }
 }
